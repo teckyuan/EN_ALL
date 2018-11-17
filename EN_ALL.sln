@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{7127F5EB-B1D7-4051-80BF-305C167FB5A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RS", "RS", "{AF69CABC-E9CF-4C0A-A10E-95BCFB64C67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RS", "RS\RS.csproj", "{13FBC6FC-EEF0-4D6C-812F-FA8A89896A00}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13FBC6FC-EEF0-4D6C-812F-FA8A89896A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FBC6FC-EEF0-4D6C-812F-FA8A89896A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FBC6FC-EEF0-4D6C-812F-FA8A89896A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FBC6FC-EEF0-4D6C-812F-FA8A89896A00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF69CABC-E9CF-4C0A-A10E-95BCFB64C67C} = {7127F5EB-B1D7-4051-80BF-305C167FB5A9}
+		{13FBC6FC-EEF0-4D6C-812F-FA8A89896A00} = {AF69CABC-E9CF-4C0A-A10E-95BCFB64C67C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2145103-3EB0-4D1E-9DAA-E3E5CD25582E}
